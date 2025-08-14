@@ -137,9 +137,8 @@ export default function Home() {
         </div>
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10 md:py-15">
           <div className="text-white mb-20 max-w-xl">
-            <h3 className="text-xl md:text-3xl font-extrabold leading-tight">
-              운영진이 직접 발굴·선정한 <br /> 개성 있는 맛집과 카페만
-              소개합니다
+            <h3 className="text-xl md:text-2xl font-extrabold leading-tight">
+              운영진이 직접 발굴·선정한 <br /> 개성 있는 맛집과 카페만 소개해요
             </h3>
           </div>
         </div>
@@ -147,7 +146,7 @@ export default function Home() {
 
       {/* Download CTA (red) */}
       <section className="w-full bg-black">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-32 sm:py-32">
           <div className="text-center text-white">
             <h3 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
               다운로드하고 바로 혜택을 누리세요!
