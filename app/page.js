@@ -89,7 +89,7 @@ export default function Home() {
               <p className="mt-4 text-xl sm:text-2xl font-extrabold text-gray-900 text-center">
                 선결제, 리뷰, 쿠폰 <span className="text-red-500">없이</span>{" "}
                 <br className="hidden sm:block" />
-                NFC 태그만으로 혜택을 받을 수 있어요
+                NFC 태그 한 번이면 돼요
               </p>
             </div>
             <div className="relative">
