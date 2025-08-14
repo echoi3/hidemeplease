@@ -14,15 +14,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "선결제 할인 플랫폼, 단골가게 유사 레이아웃",
-  description: "단골가게와 비슷한 구조의 레이아웃 스켈레톤",
+  title: "하이드미플리즈",
+  description: "리뷰, 쿠폰 없이 가장 간편하게 받는 맛집 혜택",
+  icons: {
+    icon: [{ url: "/favicon.ico" }],
+    apple: [{ url: "/favicon.ico" }],
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="ko">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col overflow-x-hidden`}
       >
         <a
           href="#main"
