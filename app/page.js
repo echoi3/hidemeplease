@@ -149,7 +149,8 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-32 sm:py-32">
           <div className="text-center text-white">
             <h3 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
-              다운로드하고 바로 혜택을 누리세요!
+              다운로드하고 <br className="block sm:hidden" /> 바로 혜택을
+              누리세요!
             </h3>
             <div className="mt-8 flex items-center justify-center gap-4">
               <a
