@@ -7,11 +7,15 @@ export default function Home() {
       <section className="relative w-full">
         <div className="absolute inset-0">
           <picture>
-            <source media="(max-width: 767px)" srcSet="/heroImageMobile.png" />
             <img
               src="/heroImage.png"
               alt="하이드미플리즈"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover hidden sm:block"
+            />
+            <img
+              src="/heroImageMobile-fixed.webp"
+              alt="하이드미플리즈"
+              className="h-full w-full object-cover block sm:hidden"
             />
           </picture>
           <div className="absolute inset-0 bg-black/40" />
