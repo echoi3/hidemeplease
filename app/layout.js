@@ -14,8 +14,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://hidemeplease.vercel.app"),
   title: "하이드미플리즈",
-  description: "리뷰, 쿠폰 없이 가장 간편하게 받는 맛집 혜택",
+  description:
+    "리뷰, 쿠폰 없이 가장 간편하게 받는 맛집 혜택. NFC 태그 한 번으로 매장에서 바로 혜택을 받으세요.",
+  openGraph: {
+    title: "하이드미플리즈",
+    description:
+      "리뷰, 쿠폰 없이 가장 간편하게 받는 맛집 혜택. NFC 태그 한 번으로 매장에서 바로 혜택을 받으세요.",
+    url: "/",
+    siteName: "하이드미플리즈",
+    images: ["/logo.png"],
+    locale: "ko_KR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "하이드미플리즈",
+    description:
+      "리뷰, 쿠폰 없이 가장 간편하게 받는 맛집 혜택. NFC 태그 한 번으로 매장에서 바로 혜택을 받으세요.",
+    images: ["/logo.png"],
+  },
   icons: {
     icon: [{ url: "/favicon.ico" }],
     apple: [{ url: "/favicon.ico" }],
